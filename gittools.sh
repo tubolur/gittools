@@ -45,10 +45,10 @@ git_update() {
         echo "/////// COMMITTING ..."
         git commit -am "${COMMIT_MSG}"
 
-        #echo "/////// PUSHING ..."
-        #git push
-        echo "/////// pushing the current branch and set the remote as upstream"
-        git push --set-upstream "$GIT_NAME" master
+        echo "/////// PUSHING ..."
+        git push
+        #echo "/////// pushing the current branch and set the remote as upstream"
+        #git push --set-upstream "$GIT_NAME" master
 
 
         echo "/////// coming back to ${CURRENT_DIR}"
