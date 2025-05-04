@@ -20,6 +20,6 @@ You can change these variables values on the fly, but read carefully the script 
 
 ## Available functions:
 
- - `git_config` : configures the systems git settings. To be done for the first git usage on the computer. 
+ - `git_config` : configures the systems git settings. To be done for the first git usage on the computer. Putting wrong info in these fields seems OK.
  - `git_update "commit message"` : updates a repository with message "commit message" . An interactive mode will ask you for needed info . 
 
